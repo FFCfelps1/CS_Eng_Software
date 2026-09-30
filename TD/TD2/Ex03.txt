@@ -1,0 +1,22 @@
+Question 3:
+
+The intervals are :
+
+1. x <= 1
+   Exemple : x = 0
+   Position : Start of the vector
+
+2. 1 < x <= 4
+   Example : x = 2
+   Position : between 1 et 4
+
+3. 4 < x <= 5
+   Example : x = 5
+   Position : between 4 et 5
+
+4. x > 5
+   Example : x = 6
+   Position : fin de la liste
+
+Example of x can be utilize in this case :
+x = [0, 2, 5, 6]

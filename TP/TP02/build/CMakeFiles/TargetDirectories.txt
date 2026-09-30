@@ -1,0 +1,3 @@
+C:/Users/felip/Desktop/GitHub/Eng Software/CS/TP/TP02/build/CMakeFiles/AppliScores.dir
+C:/Users/felip/Desktop/GitHub/Eng Software/CS/TP/TP02/build/CMakeFiles/edit_cache.dir
+C:/Users/felip/Desktop/GitHub/Eng Software/CS/TP/TP02/build/CMakeFiles/rebuild_cache.dir

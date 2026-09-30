@@ -1,0 +1,60 @@
+Ex.07)
+
+To obtain full branch coverage of the control-flow graph, we
+need test data that execute all branches of the conditional
+statements.
+
+We can use the following test data:
+
+DT1:
+s = "a"
+c1 = 'a'
+c2 = 'b'
+
+Result: c1 appears more often than c2.
+
+DT2:
+s = "b"
+c1 = 'a'
+c2 = 'b'
+
+Result: c2 appears more often than c1.
+
+DT3:
+s = "ab"
+c1 = 'a'
+c2 = 'b'
+
+Result: c1 appears as often as c2.
+
+
+Ex.08)
+
+Test data:
+
+s = "ou"
+c1 = 'o'
+c2 = 'o'
+
+Execution:
+
+index = 0:
+s[0] = 'o', so c1MinusC2 = 1.
+
+index = 1:
+s[1] = 'u'. The character 'u' is equal to neither c1 nor c2.
+Therefore, c1MinusC2 remains equal to 1.
+
+At the end of the loop:
+c1MinusC2 = 1.
+
+The condition c1MinusC2 > 0 is true.
+
+Displayed message:
+"there are more o than o"
+
+Anomaly:
+
+Yes, the execution leads to a logical anomaly.
+The characters c1 and c2 are identical, so they must appear
+the same number of times in the string.
